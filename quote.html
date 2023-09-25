@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Genarator</title>
+    <link href='https://fonts.googleapis.com/css?family=Corben' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="quote.css">
+</head>
+<body>
+    <div class="favicon" id="icon"><i class="fa-solid fa-bars fa-xl"></i>
+    <span style="font-family:Verdana, Geneva, Tahoma, sans-serif; position: relative; left: 39%; top: 10px; font-size: 2.5rem;  padding: 25px; border-radius: 8px;">Quote Generator</span>
+</div>
+    <div class="container" style=" border-radius: 20px; padding: 40px; position: relative; top: 110px; left: 31%; width: 38%; height: 420px;">
+        <div class="copy" onclick="doCopy()">
+            <i class="fa-solid fa-copy fa-2xl" style="color: coral;"></i>
+        </div>
+        <div class="item"><span id="txt" style="font-size: 3rem; max-width: 1px;">'Everything is a copy of a copy of a copy.'</span>
+            <br>
+            <br>
+        <span id="author">~ Fight Club</span>
+        </div>
+    </div>
+    <button class="btn">New Quote</button>
+    <script src="quote.js"></script>
+</body>
+</html>
